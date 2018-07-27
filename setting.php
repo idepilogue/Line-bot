@@ -2,7 +2,7 @@
 
 class Setting {
 	public function getChannelAccessToken(){
-		$channelAccessToken = "";
+		$channelAccessToken = "FFKdVY6LiTNxshBqNgyLWjraDL2y7TXydCq7CogMzky";
 		return $channelAccessToken;
 	}
 	public function getChannelSecret(){
