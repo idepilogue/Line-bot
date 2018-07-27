@@ -18,3 +18,4 @@ class Setting {
 		return $api;
 	}
 }
+?>
