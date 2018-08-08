@@ -21,6 +21,7 @@ if (!is_null($events['events'])) {
 	   		$receivetext = $event['message']['text'];
 
       			$processtext = 'Paow Bot'."\n";
+			if($receivetext=='เอฟ'){$receivetext = 'น่ารัก ๆ ';}
 			$processtext .= $receivetext;
 
 		 	 // Build message to reply back
