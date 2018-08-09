@@ -22,7 +22,7 @@ if (!is_null($events['events'])) {
 
       			$processtext = 'Paow Bot'."\n";
 			$processtext .= $receivetext;
-			$processtext .= "\n".'555';
+			$processtext .= "\n".'http://www.tangjaidee.com/tj999/main';
 
 		 	 // Build message to reply back
 	    		$messages = [
