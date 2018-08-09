@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 	   		$receivetext = $event['message']['text'];
 
       			$processtext = 'Paow Bot'."\n";
-			if($receivetext=='link'){$processtext =http://www.tangjaidee.com/tj999/main/main.php;}
+			if($receivetext=='link'){$receivetext =http://www.tangjaidee.com/tj999/main/main.php;}
 			$processtext .= $receivetext;
 
 		 	 // Build message to reply back
